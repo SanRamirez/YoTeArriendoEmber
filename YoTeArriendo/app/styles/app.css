@@ -1,5 +1,7 @@
 .body{
-  background-color: steelblue
+  background-color: steelblue;
+  width: 100%;
+
 }
 
 @font-face {
@@ -49,12 +51,15 @@ button{
  
  footer {
   background-color: white;
-  position: absolute;
   bottom: 0;
   width: 100%;
-  height: 40px;
+  height: 70px;
   color: black;
+  position:fixed;
+  left:0px;
 }
+
+
 
 .link { color: #fff; } 
 .link:hover { color: #fff; }
